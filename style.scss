@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./img/blue-pc.jpeg) no-repeat center fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 220px;
+    background-color: rgba(240, 248, 255, 0.767);
+    border-radius: 15px;
+    
+    @media (max-width:500px) {
+        margin: 15px 30px;
+        
+    }
+    h1 {
+        font-family: "Mountains of Christmas", serif;
+        font-size: 3rem;
+        @media (max-width:500px) {
+            font-size: 2.2rem;
+        }
+    }
+
+    nav {
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            @media (max-width:500px) {
+                display: flex;
+              flex-wrap: wrap;
+              
+            }
+
+            li {
+                cursor: pointer;
+                padding: 8px 15px;
+                margin: 5px;
+                font-size: 1rem;
+                font-family: "Playwrite DE Grund", system-ui;
+                font-weight: 600;
+                border-radius: 50px;
+                transition: background-color 0.3s;
+
+                @media (max-width:500px) {
+                    
+                    padding: 5px 10px;
+                    border-radius: 25px;
+                }
+                
+                &:hover {
+                    background-color: #d83737de;
+                    /* Vermelho natalino */
+                    color: white;
+                }
+            }
+        }
+    }
+    
+}
+
+section{
+    display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgba(240, 248, 255, 0.767);
+margin: 0 16vw;
+border-radius: 15px;
+h2{
+    font-family: "Playwrite DE Grund", system-ui;
+}
+p{
+    text-align: center;
+    margin: 20px;
+    font-family: "Nunito", system-ui;
+    font-weight: 500;
+}
+div{
+    margin: 0 30px 20px;
+    text-align: center;
+    li{
+        margin: 10px;
+        font-family: "Playwrite DE Grund", system-ui;
+    }
+    .obs{
+        margin: 5px;
+        
+    }
+}
+    
+@media (max-width:500px) {
+    margin: 15px 30px;
+    
+}
+
+}
