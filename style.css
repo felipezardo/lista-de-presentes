@@ -91,9 +91,14 @@ section div li {
 }
 section div .obs {
   margin: 5px;
+  font-weight: 700;
 }
 @media (max-width: 500px) {
   section {
     margin: 15px 30px;
   }
+}
+section .add {
+  list-style: none;
+  font-weight: bolder;
 }/*# sourceMappingURL=style.css.map */

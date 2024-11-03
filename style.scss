@@ -93,6 +93,7 @@ div{
     }
     .obs{
         margin: 5px;
+        font-weight: 700;
         
     }
 }
@@ -100,6 +101,12 @@ div{
 @media (max-width:500px) {
     margin: 15px 30px;
     
+}
+
+.add{
+    list-style: none;
+    font-weight: bolder;
+
 }
 
 }
